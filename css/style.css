@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #a09b9b;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #b60606;
+    text-align: center;
+}
+
+form {
+    background-color: #e1e0e0;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, legend {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #1d1d1d;
+}
+
+input, select, button, fieldset {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #b60606;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #670404;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+fieldset {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#orderSummary, #studentInfo {
+    background-color: #fff;
+    color: #444;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
